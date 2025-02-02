@@ -1,4 +1,4 @@
-import {useState, useRef, useEffect } from 'react'
+import {useState} from 'react'
 import './style/App.css'
 import "./style/reset.css"
 import Header from "./components/Header"
@@ -6,7 +6,6 @@ import EmptyPage from "./components/Empty"
 import Filter from "./components/Filter"
 import NewForm from './components/NewForm'
 import Main from './components/Main'
-import Details from "./components/details"
 
 function App() {
   const [showForm, setShowForm] = useState(false);
